@@ -6,7 +6,6 @@ import { toggleCartHidden } from "../../redux/cart/cart.actions";
 import { ReactComponent as ShoppingIcon } from "../../assets/shopping-bag copy.svg";
 
 import "./cart-icon.styles.scss";
-import { dispatch } from "rxjs/internal/observable/range";
 
 const CartIcon = ({ toggleCartHidden }) => {
 	return (
